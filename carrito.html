@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda virtual</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Virtual Computer components - store</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a class="boton-menu boton-volver" href="index.html"><i class="bi bi-arrow-left-circle"></i> Seguir comprando</a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="carrito.html"><i class="bi bi-cart-fill"></i> Carrito</a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 Virtual Computer</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p class="carrito-vacio">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
+                <div class="carrito-productos disabled">
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="Imagenes/Tarjeta madre/1.png" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>Título</small>
+                            <h3>Tarjeta</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrito-producto-precio">
+                            <small>Precio</small>
+                            <p>$140</p>
+                        </div>
+                        <div class="carrito-producto-subtotal">
+                            <small>Sub total</small>
+                            <p>$140</p>
+                        </div>
+                        <button class="carrito-producto-eliminar"><i class="bi bi-trash3-fill"></i></button>
+                    </div>
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="Imagenes/Tarjeta madre/1.png" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>Título</small>
+                            <h3>Tarjeta</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrito-producto-precio">
+                            <small>Precio</small>
+                            <p>$140</p>
+                        </div>
+                        <div class="carrito-producto-subtotal">
+                            <small>Sub total</small>
+                            <p>$140</p>
+                        </div>
+                        <button class="carrito-producto-eliminar"><i class="bi bi-trash3-fill"></i></button>
+                    </div>
+                </div>
+                
+                <div class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button class="carrito-acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total:</p>
+                            <p>$280</p>
+                        </div>
+                        <button class="carrito-acciones-comprar">Comprar ahora</button>
+                    </div>
+                    <p class="carrito-comprado disabled">Gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="carrito.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
